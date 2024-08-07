@@ -1,3 +1,6 @@
+#ifndef COLOR_CODE_H
+#define COLOR_CODE_H
+
 // Enum definitions
 enum MajorColor { WHITE, RED, BLACK, YELLOW, VIOLET };
 enum MinorColor { BLUE, ORANGE, GREEN, BROWN, SLATE };
@@ -20,3 +23,5 @@ void ColorPairToString(const ColorPair* colorPair, char* buffer);
 ColorPair GetColorFromPairNumber(int pairNumber);
 int GetPairNumberFromColor(const ColorPair* colorPair);
 void printColorCodingManual();
+
+#endif // COLOR_CODE_H
