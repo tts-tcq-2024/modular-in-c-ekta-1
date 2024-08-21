@@ -1,7 +1,7 @@
 #ifndef COLOR_CODE_H
 #define COLOR_CODE_H
 
-// Enum definitions
+// Enum definition
 enum MajorColor { WHITE, RED, BLACK, YELLOW, VIOLET };
 enum MinorColor { BLUE, ORANGE, GREEN, BROWN, SLATE };
 
